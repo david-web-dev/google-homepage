@@ -1,0 +1,129 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+#nav-container ul {
+	color: #666;
+	display: inline;
+	font-family: sans-serif;
+	font-size: 0.8em;
+	position: relative;
+	top: 2em;
+	word-spacing: 1em;
+}
+
+#nav-container ul li { display: inline; }
+
+#nav-container ul li:hover {
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+#nav-container ul#nav-left {
+	float: left;
+	padding-left: 1.7em;
+}
+
+#nav-container ul#nav-right {
+	float: right;
+	padding-right: 1.7em;
+}
+
+#nav-container ul#nav-right li#sign-in {
+	background-color: blue;
+	border-radius: 5%;
+	color: white;
+	cursor: default;
+	font-weight: bold;
+	padding: 0.7em;
+	text-decoration: none;
+	word-spacing: 0.1em;
+}
+
+/********
+ * MAIN *
+ ********/
+
+#main-container {
+	/*border: 1px solid black;*/
+	display: block;
+	margin: 0 auto;
+	position: relative;
+	top: 12em;
+	width: 50%;
+}
+
+#main-container img {
+	display: block;
+	margin: 0 auto;
+}
+
+#main-container input {
+	border: 1px solid #ddd;
+	border-radius: 30px;
+	margin-bottom: 2em;
+	margin-top: 2em;
+	padding-left: 2em;
+	height: 3em;
+	width: 85%;
+}
+
+#main-container input:hover {
+	box-shadow: 5px;
+}
+
+#main-container button {
+	background-color: #eee;
+	border: 1px solid #eee;
+	border-radius: 3px;
+	color: #555;
+	font-size: 0.9em;
+	padding: 0.7em 1em;
+	margin: 0 0.3em;
+}
+
+#main-container button:hover {
+	background-color: #fff;
+	border: 1px solid #ccc;
+	cursor: pointer;
+}
+
+#footer-container {
+	background-color: #eee;
+	border-top: 1px solid #ddd;
+	bottom: 0%;
+	position: fixed;
+	display: inline;
+	width: 100%;
+}
+
+#footer-container ul {
+	color: #555;
+	display: inline;
+	font-family: sans-serif;
+	font-size: 0.85em;
+	padding-bottom: 0.8em;
+	padding-top: 0.8em;
+	/*position: relative;*/
+	word-spacing: 1em;
+}
+
+#footer-container ul li { display: inline; }
+
+#footer-container ul li:hover {
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+#footer-container ul#footer-left {
+	float: left;
+	padding-left: 2em;
+}
+
+#footer-container ul#footer-right { 
+	float: right; 
+	padding-right: 2em;
+}
+
+#footer-container ul li#multiword { word-spacing: 0.1em; }
